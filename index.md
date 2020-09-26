@@ -10,7 +10,7 @@
   let myAssociativeArray = new Array(3);
   myAssociativeArray["first_name"] = "John";
   myAssociativeArray["last_name"] = "Doe";
-  document.getElementById("demo").innerHtml = myAssociativeArray["first_name"];
+  document.getElementById("demo").innerHTML = myAssociativeArray["first_name"];
 </script>
 </body>
 </html>
